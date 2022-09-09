@@ -60,7 +60,7 @@ class Todo extends Component {
           </ol>
         </div>
         <Link to="/">
-    <button className="home" type="button">Back</button>
+    <button  type="button">Back</button>
   </Link>
       </div>
     );

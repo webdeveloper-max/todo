@@ -34,7 +34,7 @@ let navigate=useNavigate()
   return (
     <div className="App">
       
-      Add an item
+      <h2 className="prg">Add an item..</h2>
       <br/>
 
       
@@ -62,7 +62,7 @@ let navigate=useNavigate()
           );
         })}
       </ol>
-      <button
+      <button 
                 onClick={()=>{
                   navigate("/class")
                 }}>Click</button>
